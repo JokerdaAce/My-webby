@@ -1,0 +1,64 @@
+body{
+    background-image: url('images/Beach.png');
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    font-family: Arial, Helvetica, sans-serif; /* adds a font fallback*/
+    width: 100%;
+    min-height: 100vh; /* Prevents cut-off content */
+    margin: 0;
+    display: flex;/* makes everything neatly centered */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(37, 205, 228, 0.5), rgba(40, 112, 114, 0.5)); /* Transparent gradient */
+    box-shadow: 0 0 20px 0 #1f6064;
+    margin-left: 25px;
+    margin-right: 25px;
+    z-index: 1; /* Make sure it's above any background elements */
+    position: relative; /* Needed to apply z-index */
+    padding: 20px; /* Add some padding for visibility */
+    height: 600px; /* Add height for the div */
+}
+
+header{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding: 5px;
+}
+
+p{
+    text-align: center;
+    padding: 5px;
+    font-size: small;
+    font-weight: none;
+}
+
+nav{
+    text-shadow: 10px;
+    background-color: aliceblue;
+    border: 5px solid cyan;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 25%;
+    margin: auto;
+    text-align: center;
+    padding: 10px 20px ;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: black;
+}
