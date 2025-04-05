@@ -1,0 +1,41 @@
+body{
+    font-family: cursive; /* adds a font fallback*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(37, 205, 228, 0.5), rgba(40, 112, 114, 0.5)); /* Transparent gradient */
+    height: 100vh;
+}
+
+p{
+    padding: 5px;
+    font-size: small;
+    font-weight: none;
+    max-width: 50%;
+    margin:auto;
+}
+
+.socials{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Aboutme{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+footer{
+    padding-top: 50px;
+}
+
+.warning{
+    font-style: italic;
+    color: red;
+}
+
+span{
+    color: blue;
+    font-style: italic;
+}
